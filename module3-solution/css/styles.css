@@ -1,7 +1,3 @@
-/** nav.navbar.navbar-default {
-    background-color: #400080;
-    border: 0px;
-} **/
 #header-nav {
     background-color: #400080;
     border-radius: 0;
@@ -13,9 +9,6 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
 }
 #collapsableNav {
     margin-top: 50px;
@@ -29,18 +22,6 @@
 .navbar-default .navbar-nav > li > a {
     color: #408000;
 }
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #408000;
-    background-color: #C9B7DB;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
-    color: #408000;
-    background-color: #794CA6;
-}
-.navbar-default .navbar-nav > .active > a:hover {
-    color: #408000;
-    background-color: #C9B7DB;
-}
 h3 {
     margin-top: 10px;
 }
@@ -52,4 +33,9 @@ p {
     background-color: #C9B7DB;
     padding: 10px;
     margin: 10px;
+}
+@media screen and (max-width: 767px) {
+    .menu-item {
+        margin: 40px;
+    }
 }
